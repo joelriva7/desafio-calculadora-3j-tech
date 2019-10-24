@@ -5,7 +5,7 @@ margin:auto;
 width: 580px;
 font-size: 40px;
 }
-#visor{
+.visor{
 position: relative;
 width: 574px;
 height: 104px;
@@ -16,7 +16,7 @@ button{
     font-size: 30px;
     width: 50px;
 }
-#clear{
+.clear{
 padding: 2px;
 border: dashed 1px gray;
 text-align: center;

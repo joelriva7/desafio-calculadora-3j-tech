@@ -7,54 +7,53 @@
 <body>
 
 <div id="calculadora">
-
-    <textarea id="visor" disabled rows="1"></textarea>
-    
-    <button id="clear" onclick="javascript:clearText();">C</button>
+    <form name="form">
+        <textarea maxlength="9" class="visor" name="visor" rows="1"></textarea>
+    </form>  
+    <button class="clear" onclick="clearText();">C</button>
 
      <ul>
         <li>
-        <button onclick="pressNumero" class="numeros">1</button>
+        <button onclick="press(1)" class="numeros" value="1">1</button>
 
-        <button onclick="pressNumero" class="numeros">4</button>
+        <button onclick="press(4)" class="numeros" value="4">4</button>
 
-        <button onclick="pressNumero" class="numeros">7</button>
+        <button onclick="press(7)" class="numeros" value="7">7</button>
 
-        <button onclick="pressNumero" class="numeros">0</button>
+        <button onclick="press(0)" class="numeros" value="0">0</button>
         </li>
 
         <li>
-        <button onclick="pressNumero" class="numeros">2</button>
+        <button onclick="press(2)" class="numeros" value="2">2</button>
 
-        <button onclick="pressNumero" class="numeros">5</button>
+        <button onclick="press(5)" class="numeros" value="5">5</button>
 
-        <button onclick="pressNumero" class="numeros">8</button>
+        <button onclick="press(8)" class="numeros" value="8">8</button>
         
-        <button onclick="pressNumero" id="ponto">.</button>
+        <button onclick="press('.')" id="ponto" value=".">.</button>
         </li>    
             
         <li>
-        <button onclick="pressNumero" class="numeros">3</button>
+        <button onclick="press(3)" class="numeros" value="3">3</button>
 
-        <button onclick="pressNumero" class="numeros">6</button>
+        <button onclick="press(6)" class="numeros" value="6">6</button>
 
-        <button onclick="pressNumero" class="numeros">9</button>
+        <button onclick="press(9)" class="numeros" value="9">9</button>
 
-        <button onclick="pressIgual" class="operadores">=</button>
+        <button onclick="igual()" class="operadores" value="=">=</button>
         </li>
 
         <li>
-        <button onclick="pressDivide" class="operadores">/</button>
+        <button onclick="press('/')" class="operadores" value="/">/</button>
 
-        <button onclick="pressMultiplica" class="operadores">*</button>
+        <button onclick="press('*')" class="operadores" value="*">*</button>
 
-        <button onclick="pressMenos" class="operadores">-</button>
+        <button onclick="press('-')" class="operadores" value="-">-</button>
                     
-        <button onclick="pressMais" class="operadores">+</button>
+        <button onclick="press('+')" class="operadores" value="+">+</button>
         </div>
         </li>
         
-    </ul>      
-
-    </body>   
-    </html>
+    </ul>
+</body>   
+</html>
