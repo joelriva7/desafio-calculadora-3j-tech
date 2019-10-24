@@ -1,110 +1,52 @@
 #calculadora{
 font-family: 'Fira Code', monospace;
-display: block;
 background: darkgrey;
 margin:auto;
-width: 450px;
-position: fixed;
+width: 580px;
+font-size: 40px;
 }
 #visor{
 position: relative;
+width: 574px;
+height: 104px;
 background:rgb(29, 185, 37);
-padding: 40px;
+font-size: 70px;
 }
-#l1{
-display: inline-flex;
-position: fixed;
-width: 450px;
-margin-left: 15px;
-margin-right: 15px;
-top: 180px;
-left: 20px;
-height: 50px;
+button{
+    font-size: 30px;
+    width: 50px;
 }
-#um{
-padding: 15px;
-margin-left: 15px;
-margin-right: 15px;
+#clear{
+padding: 2px;
+border: dashed 1px gray;
+text-align: center;
+margin-left: 436px;
+margin-right: 85px;
 }
-#dois{
-padding: 15px;
-margin-left: 15px;
-margin-right: 15px;
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
 }
-#tres{
-padding: 15px;
-margin-left: 15px;
-margin-right: 15px;
+li{
+    padding: 30px;
 }
-#l2{
-display: inline-flex;
-position: fixed;
-width: 450px;
-margin-left: 15px;
-margin-right: 15px;
-top: 320px;
-height: 50px;
+#ponto {
+    border: dashed 1px gray;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-#quatro{
-padding: 15px;
+.numeros{
+    border: dashed 1px gray;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-#cinco{
-padding: 15px;
-}
-#seis{
-padding: 15px;
-}
-#l3{
-height: 50px;
-display: inline-flex;
-position: fixed;
-width: 450px;
-left: 15px;
-top: 380px;
-}
-#sete{
-padding: 15px;
-}
-#oito{
-padding: 15px;
-}
-#nove{
-padding: 15px;
-}
-#l4{
-display:inline-flex;
-position: fixed;
-width: 450px;
-left: 40px;
-top: 400px;
-}
-#zero{
-padding: 15px;
-}
-#ponto{
-padding: 15px;
-}
-#igual{
-padding: 15px;
-}
-#C{
-display: inline;
-position: relative;
-left: 400px;
-}
-
-#c{
-padding: 15px;
-}
-#divisor{
-padding: 15px;
-}
-#mult{
-padding: 15px;
-}
-#menos{
-padding: 15px;
-}
-#mais{
-padding: 15px;
+.operadores{
+    border: dashed 1px gray;
+    padding-left: 15px;
+    padding-right: 15px;
 }

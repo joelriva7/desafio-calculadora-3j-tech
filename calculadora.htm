@@ -2,92 +2,59 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="calculadora.css">
+<script src="calculadora.js"></script>
 </head>   
 <body>
 
 <div id="calculadora">
-    <div>
-    <p id="visor"></p>   
-    </div>
 
-    <div id="l1">
-    <div id="um">
-    <p>1</p>
-    </div>
+    <textarea id="visor" disabled rows="1"></textarea>
+    
+    <button id="clear" onclick="javascript:clearText();">C</button>
 
-    <div id="dois">
-    <p>2</p>
-    </div>
+     <ul>
+        <li>
+        <button onclick="pressNumero" class="numeros">1</button>
 
-    <div  id="tres">
-    <p>3</p>
-    </div>
-    </div>
+        <button onclick="pressNumero" class="numeros">4</button>
 
-    <div id="l2">
-    <div  id="quatro">
-    <p>4</p>
-    </div>
+        <button onclick="pressNumero" class="numeros">7</button>
 
-    <div  id="cinco">
-    <p>5</p>
-    </div>
+        <button onclick="pressNumero" class="numeros">0</button>
+        </li>
 
-    <div  id="seis">
-    <p>6</p>
-    </div>
-    </div>
+        <li>
+        <button onclick="pressNumero" class="numeros">2</button>
 
-    <div id="l3">
-    <div  id="sete">
-    <p>7</p>
-    </div>
+        <button onclick="pressNumero" class="numeros">5</button>
 
-    <div id="oito">
-    <p>8</p>
-    </div>
+        <button onclick="pressNumero" class="numeros">8</button>
+        
+        <button onclick="pressNumero" id="ponto">.</button>
+        </li>    
+            
+        <li>
+        <button onclick="pressNumero" class="numeros">3</button>
 
-    <div  id="nove">
-    <p>9</p>
-    </div>
-    </div>
+        <button onclick="pressNumero" class="numeros">6</button>
 
-    <div id="l4">
-    <div  id="zero">
-    <p>0</p>
-    </div>
+        <button onclick="pressNumero" class="numeros">9</button>
 
-    <div  id="ponto">
-    <p>.</p>
-    </div>
+        <button onclick="pressIgual" class="operadores">=</button>
+        </li>
 
-    <div  id="igual">
-    <p>=</p>
-    </div>
-    </div>
+        <li>
+        <button onclick="pressDivide" class="operadores">/</button>
 
-    <div id="C">
-    <div id="c">
-    <p>c</p>
-    </div>
+        <button onclick="pressMultiplica" class="operadores">*</button>
 
-    <div id="divisor">
-    <p>/</p>
-    </div>
+        <button onclick="pressMenos" class="operadores">-</button>
+                    
+        <button onclick="pressMais" class="operadores">+</button>
+        </div>
+        </li>
+        
+    </ul>      
 
-    <div id="mult">
-    <p>*</p>
-    </div>
-
-    <div id="menos">
-    <p>-</p>
-    </div>
-
-    <div id="mais">
-    <p>+</p>
-    </div>
-    </div>
-</div>
-
-</body>   
-</html>
+    </body>   
+    </html>
